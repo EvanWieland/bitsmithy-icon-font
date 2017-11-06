@@ -1,10 +1,12 @@
+$font-path: "../node_modules/bitsmithy-icon-font/fonts" !default;
+
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?tvr0ax');
-  src:  url('fonts/icomoon.eot?tvr0ax#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?tvr0ax') format('truetype'),
-    url('fonts/icomoon.woff?tvr0ax') format('woff'),
-    url('fonts/icomoon.svg?tvr0ax#icomoon') format('svg');
+  src:  url('#{$font-path}/icomoon.eot?tvr0ax');
+  src:  url('#{$font-path}/icomoon.eot?tvr0ax#iefix') format('embedded-opentype'),
+    url('#{$font-path}/icomoon.ttf?tvr0ax') format('truetype'),
+    url('#{$font-path}/icomoon.woff?tvr0ax') format('woff'),
+    url('#{$font-path}/icomoon.svg?tvr0ax#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
